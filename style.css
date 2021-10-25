@@ -73,11 +73,15 @@ body{
 }
 
 .btn{
-    padding: 10px 17px;
+    padding: 10px 10px;
     border: none;
-    background-color: chocolate;
+    background-color: #1c1836;
+    border-radius: 15%;
     color: white;
+    text-transform: uppercase;
     cursor: pointer;
+}
+.btn-like{
 }
 
 .textarea{
