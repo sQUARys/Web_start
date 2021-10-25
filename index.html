@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class = "header">
+        <h1>
+            Страничка обо мне
+        </h1>
+    </header>
+
+    <main class="main">
+        <section class="about">
+            <div class="photo">
+                <img src="https://sun9-29.userapi.com/impf/c850628/v850628229/da4a4/l3F_30rGICI.jpg?size=720x960&quality=96&sign=a4e1e07a36b57d517c132e974dc5a19f&type=album"
+                alt = "Подгружаем...">
+            </div>
+
+            <div class="info">
+                <h2>Рома косенко</h2>
+                <p class="profession">
+                    <strong>Программист</strong>
+                </p>
+                <p class="hobbies_title">Мои хобби&#58</p>
+                <ol class="hobbies">
+                    <li>Языки</li>
+                    <li>Музыка</li>
+                    <li>Спорт</li>
+                    <li>Проганье</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="feedback">
+
+            <div class="opinion">
+                <form action="" class="form">
+                    <h2>Как тебе я?</h2>
+                    <div class="input_wrapper">
+                    <input type="radio" name="opinion" id = "opinion_1" >
+                    <label for="opinion_1">Топ</label>
+                    <input type="radio" name="opinion"  id = "opinion_2">
+                    <label for="opinion_2">Покатит</label>
+                    <input type="radio" name="opinion"  id = "opinion_3">
+                    <label for="opinion_3"><em>Такое</em></label> <br>
+                    </div>
+                    <textarea class = "textarea" name="Комментарий обо мне" cols="30" rows="10"></textarea>
+
+                    <button class = "btn btn-like">
+                        Поставь мне лайк
+                    </button>
+
+                    <button class ="btn btn-send">Отправить</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
